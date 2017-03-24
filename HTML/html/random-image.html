@@ -1,0 +1,29 @@
+<html>
+<head> <title> Random Image</title></head>
+<body>
+<h1>
+RANDOM IMAGE Raider Nation (Press F5 for a diffrerent player)<br />
+
+</h1>
+
+<script type="text/javascript">
+var images = [];
+index = 0;
+
+images[0] = "img/image0.jpg";
+images[1] = "img/image1.jpg";
+images[2] = "img/image2.jpg";
+images[3] = "img/image3.jpg";
+images[4] = "img/image4.jpg";
+images[5] = "img/image5.jpg";
+images[6] = "img/image6.jpg";
+theimage = Math.floor(Math.random() * images.length);
+document.write(images[theimage]);
+document.write("<img src= "+images[theimage]+ ">");
+
+</script>
+<hr />
+NOT RANDOM
+<img src = "img/image8.png" height = "200");
+</body>
+</html>
